@@ -1,0 +1,25 @@
+$white:#ffffff;
+
+.statistics-container{
+    margin-top: 100px;
+  border-radius: 10px;
+  box-shadow: 25px 15px 40px -9px rgba(0, 0, 0, 0.12);
+}
+
+.element{
+    border-right: 2px solid #EEEFF2;
+    height: 125,57px;
+
+}
+@media screen and (max-width: 768px) {
+.statistics-container{
+  background:   #ffffff00 !important;
+  }
+
+.element{ 
+    border-right: 0px solid #EEEFF2;
+    height: 125,57px;
+    box-shadow: 25px 15px 40px -9px rgba(0, 0, 0, 0.12);
+
+}
+  }

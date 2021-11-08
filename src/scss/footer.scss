@@ -1,0 +1,64 @@
+a{
+    color: black;
+}
+
+.footer-content {
+    background-color: #f6f6f6;
+    height: 550px;
+    margin-top: 120px;
+    z-index: -1;
+}
+
+.left-position{
+  margin-left: 5px;
+}
+.logo {
+  padding-left:0;
+  background:#F8F8F8 ;
+}
+
+.footer-img{
+   margin-left: 20px;
+   margin-top: 15px;
+    opacity: 100px;
+   border-radius: 15px;
+   border-color: #F8F8F8;
+
+}
+
+.footer-ul{
+  padding-bottom: 8px;
+  padding-left:0;
+  list-style:none;
+  margin-left: 0;
+  font-family: 'Rubik';
+}
+
+.list{
+  margin-left: 5px;
+}
+.footer-ul li{
+
+  padding-bottom:20px;
+
+}
+.card_title{
+  font-family: Rubik;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.toButtom {
+    padding-top: 150px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-content {
+        display: none;
+    }
+  }

@@ -1,0 +1,88 @@
+
+$new-red:#F53838;
+
+$primary:$new-red;
+@import "../../node_modules/bootstrap/dist/css/bootstrap.css";
+
+.navbar{
+    background-color:#fff !important;
+  
+  }
+
+  .sidebar {
+    background-color: white !important;
+    top: 0px;
+    bottom: 0;
+    z-index: 1;
+    position: fixed;
+    overflow: auto;
+    transition: 0.7s ;
+    box-shadow: 10px 0px 50px -9px rgba(0, 0, 0, 0.12);
+   
+  }
+
+  
+.btn-outline-primary{
+    border-radius:50px !important;
+    border-color: #F53855 !important;
+    width : 150px !important;
+    height:45px !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    color:#F53855 !important;
+    &:hover{
+      color: #fff !important;
+      background-color: #F53855 !important ;
+    }
+   
+  }
+  .nav-link{
+   
+    color: #4F5665 !important;
+    font-size: 16px !important;
+   
+    &:hover{
+      color:#F53855 !important;
+    }
+  }
+  .btn-outline-primary{
+    border-radius:50px !important;
+    border-color: #F53855 !important;
+    width : 150px !important;
+    height:45px !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    color:#F53855 !important;
+    &:hover{
+      color: #fff !important;
+      background-color: #F53855 !important ;
+    }
+  }
+  .sidebar-element{
+    font-size: 16px !important;
+    line-height: 28px;
+    color:#4F5665;
+    text-decoration:none;
+    cursor:pointer ;
+    text-decoration: none !important;
+   
+    &:hover{
+      color:#F53855 !important;
+    }
+  }
+  .sidebar-element-button{
+      border-radius:50px !important;
+    border-color: #F53855 !important;
+    width : 150px !important;
+    height:45px !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    color:#F53855 !important;
+    
+    &:hover{
+      color: #fff !important;
+      background-color: #F53855 !important ;
+    }
+    
+  }
+  

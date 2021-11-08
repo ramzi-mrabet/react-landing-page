@@ -1,0 +1,47 @@
+.titlePres {
+    font-size: 300% !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+     
+    color: #0B132A;
+    }
+    .btn-outline{
+      border-radius:10px !important;
+      background-color:#F53838 ;
+      border-color: #F53838 !important;
+      width : 250px !important;
+      height:45px !important;
+      font-weight: 500 !important;
+      font-size: 16px !important;
+      color:#fff !important;
+      &:hover{
+        color: #fff !important;
+        background-color: #F53838 !important ;
+      }
+    }
+    .subTitlePres {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+     
+    color: #4F5665;
+    }
+     
+  
+    @media screen and (max-width: 750px) {
+        .leftSide {
+            
+            display: none !important;
+        }
+
+        .subContainer {
+            background-image: url("../images/background.png");
+            background-size: 300px 100px;
+        }
+      }
